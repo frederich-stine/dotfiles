@@ -1,9 +1,5 @@
 "vimrc settings" 
 
-"plugins"
-execute pathogen#infect()
-
-filetype plugin indent on
 syntax on
 
 set laststatus=2
@@ -20,3 +16,11 @@ colorscheme desert
 set autoindent
 
 set noshowmode
+
+"tiling switch"
+noremap <c-j> <c-w>j
+noremap <c-k> <c-w>k
+noremap <c-l> <c-w>l
+noremap <c-h> <c-w>h
+
+

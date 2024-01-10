@@ -14,8 +14,14 @@ set softtabstop=4
 colorscheme desert
 
 set autoindent
-
 set noshowmode
+
+"folding"
+set foldmethod=indent   
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2
+nnoremap <space> za
 
 "tiling switch"
 noremap <c-j> <c-w>j
